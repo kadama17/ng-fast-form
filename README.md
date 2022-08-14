@@ -187,19 +187,7 @@ For **Checkbox**
       name: 'checkbox',
       header: 'CheckBoxes',
     }
-    ```
-
-# NgFastForm
-
-NgFastForm is a package which allow you to make quickly and easier
-your project form for Angular applications. 
-
-
-# NgFastForm
-
-NgFastForm is a package which allow you to make quickly and easier
-your project form for Angular applications. 
-
+```
 
 ## 🚀 About Me
 I'm Kone Adama Pegnimin, an Ivorian Full Stack Developper. 
@@ -211,8 +199,3 @@ Follow me on:
 [Youtube](https://www.youtube.com/channel/UC1lz967TGCU4FfjJlDHXipg)
 [Linkedin](https://www.linkedin.com/in/adama-pegnimin-kone/)
 [Website](http://ledigitalavecadama.tech/)
-# NgFastForm
-
-NgFastForm is a package which allow you to make quickly and easier
-your project form for Angular applications. 
-

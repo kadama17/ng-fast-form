@@ -1,3 +1,4 @@
+![NgFastFormImage](https://raw.githubusercontent.com/kadama17/ng-fast-form/main/screenshots/fcbf53acd611b85d394b04363d9db6ef.jpg)
 
 # NgFastForm
 

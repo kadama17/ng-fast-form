@@ -1,3 +1,4 @@
+![NgFastFormImage](https://raw.githubusercontent.com/kadama17/ng-fast-form/main/screenshots/fcbf53acd611b85d394b04363d9db6ef.jpg)
 
 # NgFastForm
 
@@ -188,6 +189,26 @@ For **Checkbox**
       header: 'CheckBoxes',
     }
 ```
+
+### Get form data
+
+It is too simple, to get data. 
+Call form Component like this. 
+
+```bash 
+<app-form (ngFormData)=ngParentGetFormData($event) [ngInputDetails]="inputArray"   [ngInputLayout]="'1-column'"></app-form>
+```
+
+And add the following function to your class. 
+
+```bash 
+  ngParentGetFormData(eventData:any) {
+    console.log(eventData)
+   
+  }
+```
+eventData: is all the form data value your are waiting for, so in this funtion, 
+you can make what want. i.e send data to firebase, to laravel ....
 
 ## 🚀 About Me
 I'm Kone Adama Pegnimin, an Ivorian Full Stack Developper. 

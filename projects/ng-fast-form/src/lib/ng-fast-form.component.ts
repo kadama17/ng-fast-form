@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
@@ -202,7 +202,10 @@ export class NgFastFormComponent implements OnInit {
   @Input() ngInputDetails: any = [];
   @Input() ngInputLayout = '';
   @Input() ngSubmitText = 'Submit';
+  @Output() ngFormData = new EventEmitter<any>();
+
   myForm = new FormGroup({});
+
   formValue: any;
 
   constructor() {}
@@ -226,7 +229,8 @@ export class NgFastFormComponent implements OnInit {
 
   submit() {
     this.formValue = this.myForm.value;
-    console.log(this.myForm.value);
+    //    console.log(this.myForm.value);
+    this.ngFormData.emit(this.myForm.value);
   }
 
   // Pour le checkbox

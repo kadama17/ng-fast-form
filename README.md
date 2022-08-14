@@ -190,6 +190,26 @@ For **Checkbox**
     }
 ```
 
+### Get form data
+
+It is too simple, to get data. 
+Call form Component like this. 
+
+```bash 
+<app-form (ngFormData)=ngParentGetFormData($event) [ngInputDetails]="inputArray"   [ngInputLayout]="'1-column'"></app-form>
+```
+
+And add the following function to your class. 
+
+```bash 
+  ngParentGetFormData(eventData:any) {
+    console.log(eventData)
+   
+  }
+```
+eventData: is all the form data value your are waiting for, so in this funtion, 
+you can make what want. i.e send data to firebase, to laravel ....
+
 ## 🚀 About Me
 I'm Kone Adama Pegnimin, an Ivorian Full Stack Developper. 
 I'm currently work with AngularJS and React JS for web application and Ionic for mobile application. 

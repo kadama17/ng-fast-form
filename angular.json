@@ -3,5 +3,39 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "ng-fast-form": {
+      "projectType": "library",
+      "root": "projects/ng-fast-form",
+      "sourceRoot": "projects/ng-fast-form/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ng-fast-form/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-fast-form/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng-fast-form/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-fast-form/src/test.ts",
+            "tsConfig": "projects/ng-fast-form/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-fast-form/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": false
   }
 }

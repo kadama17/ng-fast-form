@@ -194,8 +194,9 @@ I'm Kone Adama Pegnimin, an Ivorian Full Stack Developper.
 I'm currently work with AngularJS and React JS for web application and Ionic for mobile application. 
 
 Follow me on:  
-[Facebook](https://www.facebook.com/ledigitalavecadama).
-[Instagram](instagram.com/le_digital_avec_adama/)
-[Youtube](https://www.youtube.com/channel/UC1lz967TGCU4FfjJlDHXipg)
-[Linkedin](https://www.linkedin.com/in/adama-pegnimin-kone/)
-[Website](http://ledigitalavecadama.tech/)
+[Facebook](https://www.facebook.com/ledigitalavecadama), 
+[Instagram](instagram.com/le_digital_avec_adama/),
+[Youtube](https://www.youtube.com/channel/UC1lz967TGCU4FfjJlDHXipg),
+[Linkedin](https://www.linkedin.com/in/adama-pegnimin-kone/),
+[Website](http://ledigitalavecadama.tech/),
+[GitHub](https://github.com/kadama17).
